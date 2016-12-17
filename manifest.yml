@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: WatsomPOC-HelpMe-V1
+  host: WatsomPOC-HelpMe-V1
+  disk_quota: 1024M
